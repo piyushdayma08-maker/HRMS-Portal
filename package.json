@@ -1,0 +1,22 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "postinstall": "prisma generate",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio",
+    "prisma:migrate": "prisma migrate deploy",
+    "dev:vercel": "vercel dev",
+    "lint": "echo \"no lint configured\""
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "bcryptjs": "^2.4.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  }
+}
