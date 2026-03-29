@@ -1,0 +1,10 @@
+.vercel
+node_modules
+.env
+frontend/.env
+database/database.sqlite
+prisma/database
+prisma/dev.db
+*.log
+dist
+build

@@ -8,12 +8,15 @@
     "prisma:generate": "prisma generate",
     "prisma:studio": "prisma studio",
     "prisma:migrate": "prisma migrate deploy",
+    "prisma:seed": "node scripts/seed.js",
     "dev:vercel": "vercel dev",
+    "dev:local": "node server/local-dev.js",
     "lint": "echo \"no lint configured\""
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",
     "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
